@@ -4,7 +4,7 @@ abstract class Shape {
 	public void draw() { }
 	public void color() { }
 	
-	class Square {
+	final class Square {
 		public void draw() {
 			System.out.println("Square");
 		}
@@ -14,7 +14,7 @@ abstract class Shape {
 		}
 	}
 	
-	class Triangle {
+	final class Triangle {
 		public void draw() {
 			System.out.println("Triangle");
 		}
@@ -24,7 +24,7 @@ abstract class Shape {
 		}
 	}
 	
-	class Circle {
+	final class Circle {
 		public void draw() {
 			System.out.println("Circle");
 		}
